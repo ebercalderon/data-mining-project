@@ -38,17 +38,17 @@ const Navbar = () => {
                     <div className="flex items-center">
                         <div>
                             <NavLink to='/' className="btn hover:bg-slate-300 dark:hover:bg-slate-600 btn-ghost rounded-btn mx-2">
-                                OPTION 1
+                                HOME
                             </NavLink>
                         </div>
                         <div>
                             <NavLink to="/section" className="btn hover:bg-slate-300 dark:hover:bg-slate-600 btn-ghost rounded-btn mx-2">
-                                OPTION 2
+                                PROJECT
                             </NavLink>
                         </div>
                         <div>
                             <NavLink to="/chat" className="btn hover:bg-slate-300 dark:hover:bg-slate-600 btn-ghost rounded-btn mx-2">
-                                OPTION 3
+                                ABOUT
                             </NavLink>
                         </div>
                     </div>
@@ -62,17 +62,17 @@ const Navbar = () => {
                     <ul tabIndex="0" className={!nav ? "hidden" : "p-2 relative top-10 shadow menu dropdown-content bg-slate-100 dark:bg-slate-600 rounded-box w-52 mt-2"}>
                         <div className="btn hover:bg-slate-300 dark:hover:bg-slate-500 btn-ghost rounded-btn mx-2">
                             <NavLink to='/' onClick={handleClose}>
-                                OPTION 1
+                                HOME
                             </NavLink>
                         </div>
                         <div className="btn hover:bg-slate-300 dark:hover:bg-slate-500 btn-ghost rounded-btn mx-2">
                             <NavLink to='/section' onClick={handleClose}>
-                                OPTION 2
+                                PROJECT
                             </NavLink>
                         </div>
                         <div className="btn hover:bg-slate-300 dark:hover:bg-slate-500 btn-ghost rounded-btn mx-2">
                             <NavLink to='/chat' onClick={handleClose}>
-                                OPTION 3
+                                ABOUT
                             </NavLink>
                         </div>
                     </ul>
