@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 
 const Guides = () => {
@@ -29,7 +28,7 @@ const Guides = () => {
                         </div>
                     </div>
                     <div className='col-span-2 sm:col-span-1 ps-22 sm:pr-8 flex justify-center sm:justify-end items-center'>
-                        <a href="https://github.com/ebercalderon/data-mining-project" target="_blank">
+                        <a href="https://github.com/ebercalderon/data-mining-project" target="_blank" rel="noreferrer">
                             <button className='rounded-3xl bg-teal-600 text-white font-semibold py-2 px-6 hover:bg-slate-700 dark:hover:bg-slate-800 hover:text-white duration-300 inline-flex items-center justify-center'>
                                 Read More <BsArrowRight className='ml-1' />
                             </button>
@@ -53,7 +52,7 @@ const Guides = () => {
                         </div>
                     </div>
                     <div className='col-span-2 sm:col-span-1 ps-22 sm:pr-8 flex justify-center sm:justify-end items-center'>
-                        <a href="https://github.com/ebercalderon/data-mining-project" target="_blank">
+                        <a href="https://github.com/ebercalderon/data-mining-project" target="_blank" rel="noreferrer">
                             <button className='rounded-3xl bg-teal-600 text-white font-semibold py-2 px-6 hover:bg-slate-700 dark:hover:bg-slate-800 hover:text-white duration-300 inline-flex items-center justify-center'>
                                 Read More <BsArrowRight className='ml-1' />
                             </button>
