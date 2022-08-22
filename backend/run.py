@@ -10,7 +10,6 @@ from flask import Flask, jsonify, request
 app = Flask(__name__)
 
 
-
 # Home Page
 @app.route('/')
 def home():
