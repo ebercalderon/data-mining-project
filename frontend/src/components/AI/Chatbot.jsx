@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import getQuestion from './Question';
 import Brain from '../../images/brain.png';
+import Error from '../../images/error_cat.gif';
 
 const numberOfQuestions = 15;
 
@@ -79,7 +80,13 @@ class Chatbot extends Component {
                         <img src={Brain} alt="" />
                     </div>
                     <div className='grid grid-rows-1  my-5 mx-5 bg-slate-100 rounded-md shadow-md py-6 dark:bg-slate-700'>
-                        {loading && !finished ? <h2 className='dark:text-slate-300 text-2xl w-full flex justify-center'>Loading...</h2> : null}
+                        {loading && !finished ? <h2 className='dark:text-slate-300 text-2xl w-full flex justify-center'>Loading...</h2> :
+                            <div>
+                                <h2 className='dark:text-slate-300 text-2xl w-full flex justify-center p-10'>Cannot connect to Server</h2>
+                                <div className="w-full flex justify-center"><img src={Error} alt="" /></div>
+                            </div>
+                        }
+
                         {!loading && !finished ? <SearchContainer question={question} answersButtons={answersButtons} onButtonClick={this.onButtonClick} /> : null}
                         {finished ? <FinishedContainer characterMatch={characterMatch} /> : null}
                     </div>

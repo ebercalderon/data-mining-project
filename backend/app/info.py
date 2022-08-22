@@ -1,50 +1,42 @@
 # Features
-features = ['intelligence', 'strength', 'power', 'combat', 'speed', 'gender', 'is_tall', 'is_short', 'is_weight', 'is_light', 'is_bald', 'is_good', 'eye_color', 'publisher', 'place_of_birth']
+features = ['age', 'job', 'education', 'default', 'day_of_week', 'duration', 'campaign', 'previous', 'cons.conf.idx', 'euribor3m', 'nr.employed']
 
 # Questions
 questions = {
-  'intelligence': 'How smart is this character?',
-  'strength': 'How strong is this character?',
-  'power': 'How powerful is this character?',
-  'combat': 'How well does this character fight?',
-  'speed': 'How fast is this character?',
+  'age': 'age?',
+  'job': 'job?',
+  'education': 'education?',
 
-  'gender': 'Is this character a man?',
-  'is_tall': 'Is this character tall?',
-  'is_short': 'Is this character short?',
-  'is_weight': 'Is this character heavy?',
-  'is_light': 'Is this character light?',
-  'is_bald': 'Is this character bald?',
-  'is_good': 'Is this character good?',
+  'default': 'default?',
+  'day_of_week': 'day_of_week?',
+  'duration': 'duration?',
+  'campaign': 'campaign?',
+  'previous': 'previous?',
 
-  'eye_color': "Is the character's eye color ",
-  'publisher': "Is the character's publisher ",
-  'place_of_birth': 'Was he born in '
+  'cons.conf.idx': 'cons.conf.idx?',
+  'euribor3m': 'euribor3m?',
+  'nr.employed': 'nr.employed?',
 }
 
 # Answers Buttons
 answers = {
-  'intelligence': [{ 'title': 'High', 'value': 2 }, { 'title': 'Average', 'value': 1 }, { 'title': 'Low', 'value': 0 }],
-  'strength': [{ 'title': 'High', 'value': 2 }, { 'title': 'Average', 'value': 1 }, { 'title': 'Low', 'value': 0 }],
-  'power': [{ 'title': 'High', 'value': 2 }, { 'title': 'Average', 'value': 1 }, { 'title': 'Low', 'value': 0 }],
-  'combat': [{ 'title': 'High', 'value': 2 }, { 'title': 'Average', 'value': 1 }, { 'title': 'Low', 'value': 0 }],
-  'speed': [{ 'title': 'High', 'value': 2 }, { 'title': 'Average', 'value': 1 }, { 'title': 'Low', 'value': 0 }],
+  'age': [{ 'title': 'Yes', 'value': 1 }, { 'title': 'No', 'value': 0 }],
+  'job': [{ 'title': 'Yes', 'value': 1 }, { 'title': 'No', 'value': 0 }],
+  'education': [{ 'title': 'Yes', 'value': 1 }, { 'title': 'No', 'value': 0 }],
 
-  'gender': [{ 'title': 'Yes', 'value': 1 }, { 'title': 'No', 'value': 0 }],
-  'is_tall': [{ 'title': 'Yes', 'value': 1 }, { 'title': 'No', 'value': 0 }],
-  'is_short': [{ 'title': 'Yes', 'value': 1 }, { 'title': 'No', 'value': 0 }],
-  'is_weight': [{ 'title': 'Yes', 'value': 1 }, { 'title': 'No', 'value': 0 }],
-  'is_light': [{ 'title': 'Yes', 'value': 1 }, { 'title': 'No', 'value': 0 }],
-  'is_bald': [{ 'title': 'Yes', 'value': 1 }, { 'title': 'No', 'value': 0 }],
-  'is_good': [{ 'title': 'Yes', 'value': 1 }, { 'title': 'No', 'value': 0 }],
+  'default': [{ 'title': 'Yes', 'value': 1 }, { 'title': 'No', 'value': 0 }],
+  'day_of_week': [{ 'title': 'Yes', 'value': 1 }, { 'title': 'No', 'value': 0 }],
+  'duration': [{ 'title': 'Yes', 'value': 1 }, { 'title': 'No', 'value': 0 }],
+  'campaign': [{ 'title': 'Yes', 'value': 1 }, { 'title': 'No', 'value': 0 }],
+  'previous': [{ 'title': 'Yes', 'value': 1 }, { 'title': 'No', 'value': 0 }],
 
-  'eye_color': [{ 'title': 'Yes', 'value': 1 }, { 'title': 'No', 'value': 0 }],
-  'publisher': [{ 'title': 'Yes', 'value': 1 }, { 'title': 'No', 'value': 0 }],
-  'place_of_birth': [{ 'title': 'Yes', 'value': 1 }, { 'title': 'No', 'value': 0 }] 
+  'cons.conf.idx': [{ 'title': 'Yes', 'value': 1 }, { 'title': 'No', 'value': 0 }],
+  'euribor3m': [{ 'title': 'Yes', 'value': 1 }, { 'title': 'No', 'value': 0 }],
+  'nr.employed': [{ 'title': 'Yes', 'value': 1 }, { 'title': 'No', 'value': 0 }]
 }
 
 # Answers that is String
-questionWithComplete = ['eye_color', 'publisher', 'place_of_birth']
+questionWithComplete = ['job', 'education', 'default', 'day_of_week']
 
 # Absolute (Remove train_x item if is not equal)
-absoluteFeatures = ['publisher', 'gender', 'eye_color', 'is_good']
+absoluteFeatures = ['duration', 'euribor3m', 'age', 'job']

@@ -30,23 +30,23 @@ def getQuestions():
         characterMatch = characterMatch.to_dict()
 
         characterMatchId = 0
-        for id in characterMatch['name']:
+        for id in characterMatch['class']:
             characterMatchId = id
 
         print(characterMatch)
-        print(characterMatch['name'][characterMatchId])
+        print(characterMatch['class'][characterMatchId])
 
-        if characterMatch['name'][characterMatchId] == 'yes':
-            classImage = 'https://raw.githubusercontent.com/ebercalderon/data-mining-project/main/frontend/src/images/bad.gif'
-        else:
+        if characterMatch['class'][characterMatchId] == 'yes':
             classImage = 'https://raw.githubusercontent.com/ebercalderon/data-mining-project/main/frontend/src/images/good.gif'
+        else:
+            classImage = 'https://raw.githubusercontent.com/ebercalderon/data-mining-project/main/frontend/src/images/bad.gif'
 
         characterMatch = {
-          "name": characterMatch['name'][characterMatchId],
+          "name": characterMatch['class'][characterMatchId],
           "image": classImage,
-          "eye_color": characterMatch['eye_color'][characterMatchId],
-          "publisher": characterMatch['publisher'][characterMatchId],
-          "place_of_birth": characterMatch['place_of_birth'][characterMatchId]
+          "eye_color": characterMatch['job'][characterMatchId],
+          "publisher": characterMatch['education'][characterMatchId],
+          "place_of_birth": characterMatch['default'][characterMatchId]
         }
     else:
         availableFeatures = set(availableFeatures) - set(questionWithComplete)
@@ -67,9 +67,9 @@ def getQuestions():
         param = 'is_' + characterMatch[feature]
 
     if characterMatch:
-        del characterMatch['eye_color']
-        del characterMatch['publisher']
-        del characterMatch['place_of_birth']
+        del characterMatch['job']
+        del characterMatch['education']
+        del characterMatch['default']
 
     return jsonify(
       feature = feature,
