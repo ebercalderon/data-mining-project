@@ -45,20 +45,20 @@ const Banner = () => {
                         <div className="dark:text-white">
                             <Slider {...settings}>
                                 <div>
-                                    <h2 className="text-5xl md:text-6xl font-bold text-violet-800 dark:text-violet-400">Subtitle 1</h2>
-                                    <p className="py-5 text-2xl lg:w-3/4 xl:w-1/2">Lorem ipsum dolor sit amet. In consectetur mollitia ut placeat esse id consequatur mollitia</p>
+                                    <h2 className="text-5xl md:text-6xl font-bold text-violet-800 dark:text-violet-400">Classification</h2>
+                                    <p className="py-5 text-2xl lg:w-3/4 xl:w-1/2">A classification model tries to draw some conclusion from the input values given for training</p>
                                 </div>
                                 <div>
-                                    <h2 className="text-5xl md:text-6xl font-bold text-violet-800 dark:text-violet-400">Subtitle 2</h2>
-                                    <p className="py-5 text-2xl lg:w-3/4 xl:w-1/2">Lorem ipsum dolor sit amet. In consectetur mollitia ut placeat esse id consequatur mollitia</p>
+                                    <h2 className="text-5xl md:text-6xl font-bold text-violet-800 dark:text-violet-400">Prediction</h2>
+                                    <p className="py-5 text-2xl lg:w-3/4 xl:w-1/2">The purpose of a prediction algorithm is to forecast future values based on our present records.</p>
                                 </div>
                                 <div>
-                                    <h2 className="text-5xl md:text-6xl font-bold text-violet-800 dark:text-violet-400">Subtitle 3</h2>
-                                    <p className="py-5 text-2xl lg:w-3/4 xl:w-1/2">Lorem ipsum dolor sit amet. In consectetur mollitia ut placeat esse id consequatur mollitia</p>
+                                    <h2 className="text-5xl md:text-6xl font-bold text-violet-800 dark:text-violet-400">Bank marketing campaign</h2>
+                                    <p className="py-5 text-2xl lg:w-3/4 xl:w-1/2">We use classification and prediction to extract a model, representing the data classes to predict future data trends.</p>
                                 </div>
                             </Slider>
                         </div>
-                        <NavLink to="/">
+                        <NavLink to="/project">
                             <button className="bg-teal-600 animate-[pulse_2s_ease-in-out_infinite] rounded-md text-white px-7 py-3 my-5 flex justify-center items-center">
                                 Start &nbsp; <FaArrowRight style={{ fontSize: '14px', marginTop: '2px' }} />
                             </button>
@@ -66,6 +66,7 @@ const Banner = () => {
                     </div>
                     <div className="w-5/6 lg:w-[50%] py-5">
                         <div className="w-full mx-auto">
+                        <h2 className="text-5xl md:text-5xl font-bold text-violet-800 dark:text-teal-400 w-full flex justify-center">Data Mining Project</h2>
                             <img src={Chatbot} width="600" height="432" alt="Chatbot" draggable="false" />
                         </div>
                     </div>
