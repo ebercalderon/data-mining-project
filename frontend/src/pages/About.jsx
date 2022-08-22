@@ -1,6 +1,6 @@
 import Chatbot from "../components/AI/Chatbot";
 
-const Chat = () => {
+const About = () => {
     return (
         <>
             <Chatbot />
@@ -8,4 +8,4 @@ const Chat = () => {
     );
 };
 
-export default Chat;
+export default About;

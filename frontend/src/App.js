@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
-import Section from "./pages/Section";
-import Chat from "./pages/Chat";
+import Project from "./pages/Project";
+import About from "./pages/About";
 import "./styles/globals.css";
 
 function App() {
@@ -12,8 +12,8 @@ function App() {
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/section" element={<Section />} />
-            <Route path="/chat" element={<Chat />} />
+            <Route path="/project" element={<Project />} />
+            <Route path="/About" element={<About />} />
           </Routes>
         </Layout>
       </BrowserRouter>

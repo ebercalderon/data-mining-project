@@ -42,12 +42,12 @@ const Navbar = () => {
                             </NavLink>
                         </div>
                         <div>
-                            <NavLink to="/section" className="btn hover:bg-slate-300 dark:hover:bg-slate-600 btn-ghost rounded-btn mx-2">
+                            <NavLink to="/project" className="btn hover:bg-slate-300 dark:hover:bg-slate-600 btn-ghost rounded-btn mx-2">
                                 PROJECT
                             </NavLink>
                         </div>
                         <div>
-                            <NavLink to="/chat" className="btn hover:bg-slate-300 dark:hover:bg-slate-600 btn-ghost rounded-btn mx-2">
+                            <NavLink to="/about" className="btn hover:bg-slate-300 dark:hover:bg-slate-600 btn-ghost rounded-btn mx-2">
                                 ABOUT
                             </NavLink>
                         </div>
@@ -66,12 +66,12 @@ const Navbar = () => {
                             </NavLink>
                         </div>
                         <div className="btn hover:bg-slate-300 dark:hover:bg-slate-500 btn-ghost rounded-btn mx-2">
-                            <NavLink to='/section' onClick={handleClose}>
+                            <NavLink to='/project' onClick={handleClose}>
                                 PROJECT
                             </NavLink>
                         </div>
                         <div className="btn hover:bg-slate-300 dark:hover:bg-slate-500 btn-ghost rounded-btn mx-2">
-                            <NavLink to='/chat' onClick={handleClose}>
+                            <NavLink to='/about' onClick={handleClose}>
                                 ABOUT
                             </NavLink>
                         </div>
