@@ -11,8 +11,8 @@ const FloatIcon = () => {
     return (
         <div id="chat-bot">
             <div className="icon" id="chat-icon" onClick={() => helpLine()}>
-                <NavLink to="/" >
-                    <div className="user"> Hi! </div>
+                <NavLink to="/about" >
+                    <div className="user">Hi!</div>
                 </NavLink>
                 <FaHeadset className="text-4xl" />
             </div>
