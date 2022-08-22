@@ -82,8 +82,8 @@ class Chatbot extends Component {
                     <div className='grid grid-rows-1  my-5 mx-5 bg-slate-100 rounded-md shadow-md py-6 dark:bg-slate-700'>
                         {loading && !finished ? <h2 className='dark:text-slate-300 text-2xl w-full flex justify-center'>Loading...</h2> :
                             <div>
-                                <h2 className='dark:text-slate-300 text-2xl w-full flex justify-center p-10'>Cannot connect to Server</h2>
-                                <div className="w-full flex justify-center"><img src={Error} alt="" /></div>
+                                <h2 className='dark:text-slate-300 text-2xl w-full flex justify-center py-5'>Cannot connect to Server</h2>
+                                <div className="w-full flex justify-center"><img src={Error} alt=""/></div>
                             </div>
                         }
 
