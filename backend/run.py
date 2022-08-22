@@ -44,9 +44,10 @@ def getQuestions():
         characterMatch = {
           "name": characterMatch['class'][characterMatchId],
           "image": classImage,
+          "age": characterMatch['age'][characterMatchId],
           "eye_color": characterMatch['job'][characterMatchId],
           "publisher": characterMatch['education'][characterMatchId],
-          "place_of_birth": characterMatch['default'][characterMatchId]
+          "place_of_birth": characterMatch['nr.employed'][characterMatchId]
         }
     else:
         availableFeatures = set(availableFeatures) - set(questionWithComplete)
@@ -67,9 +68,10 @@ def getQuestions():
         param = 'is_' + characterMatch[feature]
 
     if characterMatch:
+        del characterMatch['age']
         del characterMatch['job']
         del characterMatch['education']
-        del characterMatch['default']
+        del characterMatch['nr.employed']
 
     return jsonify(
       feature = feature,

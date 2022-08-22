@@ -33,7 +33,7 @@ def convertStringData(params, newParams, values, test):
     return values
 
 def ml(params, newParams, test_x):
-    data = pandas.read_csv('bank-additional-full.csv')
+    data = pandas.read_csv('bank-additional.csv')
 
     data = convertStringData(params, newParams, data, test_x)
 
@@ -66,6 +66,6 @@ def ml(params, newParams, test_x):
 
     prevision = model.predict(test_x)
 
-    data = pandas.read_csv('bank-additional-full.csv')
+    data = pandas.read_csv('bank-additional.csv')
 
     return data[prevision[0]:prevision[0] + 1]
