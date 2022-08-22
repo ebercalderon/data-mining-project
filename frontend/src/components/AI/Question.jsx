@@ -1,7 +1,7 @@
-
-import url from '../../utilities/config/Request';
-
 export default function getQuestion(alreadyFeatures, params, answers) {
+
+    const url = process.env.REACT_APP_API;
+
     return new Promise(async (next, reject) => {
         let body
 
