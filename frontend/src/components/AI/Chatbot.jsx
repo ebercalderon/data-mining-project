@@ -19,7 +19,7 @@ const SearchContainer = ({ question, answersButtons, onButtonClick }) => (
         )}
 
         <div className='w-full flex justify-center p-5'>
-            {answersButtons.map(answer => <button className='rounded-3xl bg-teal-600 text-white font-semibold py-2 px-16 hover:bg-slate-700 dark:hover:bg-slate-800 hover:text-white duration-300 inline-flex items-center justify-center'
+            {answersButtons.map(answer => <button className='rounded-3xl bg-teal-600 text-white font-semibold py-2 px-10 hover:bg-slate-700 dark:hover:bg-slate-800 hover:text-white duration-300 inline-flex items-center justify-center'
                 key={Math.random()} onClick={() => onButtonClick(answer.value)}>{answer.title}
             </button>)}
         </div>
