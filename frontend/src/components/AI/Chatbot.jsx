@@ -3,7 +3,7 @@ import getQuestion from './Question';
 import Brain from '../../images/brain.png';
 import Error from '../../images/error_cat.gif';
 
-const numberOfQuestions = 15;
+const numberOfQuestions = 11;
 
 const SearchContainer = ({ question, answersButtons, onButtonClick }) => (
     <div className='justify-center'>

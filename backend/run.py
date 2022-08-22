@@ -14,7 +14,7 @@ app = Flask(__name__)
 # Home Page
 @app.route('/')
 def home():
-    return "Welcome to backend - chatbot."
+    return "Welcome to backend"
 
 # [POST] Response
 @app.route('/api/questions/', methods = ['POST'])
