@@ -22,6 +22,7 @@ def home():
 def getQuestions():
     availableFeatures = features[:]
     characterMatch = None
+    classImage = ''
 
     if 'alreadyFeatures' in request.json:
         availableFeatures = set(availableFeatures) - set(request.json['alreadyFeatures'])
@@ -35,9 +36,14 @@ def getQuestions():
         print(characterMatch)
         print(characterMatch['name'][characterMatchId])
 
+        if characterMatch['name'][characterMatchId] == 'yes':
+            classImage = 'https://raw.githubusercontent.com/ebercalderon/data-mining-project/main/frontend/src/images/bad.gif'
+        else:
+            classImage = 'https://raw.githubusercontent.com/ebercalderon/data-mining-project/main/frontend/src/images/good.gif'
+
         characterMatch = {
           "name": characterMatch['name'][characterMatchId],
-          "image": characterMatch['image'][characterMatchId],
+          "image": classImage,
           "eye_color": characterMatch['eye_color'][characterMatchId],
           "publisher": characterMatch['publisher'][characterMatchId],
           "place_of_birth": characterMatch['place_of_birth'][characterMatchId]
