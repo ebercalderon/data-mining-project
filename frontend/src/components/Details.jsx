@@ -20,8 +20,8 @@ const Details = () => {
                             clients.
                         </div>
                         <div className='grid grid-rows-1 sm:grid-cols-1 my-5 bg-slate-300 rounded-md shadow-md py-6 dark:bg-slate-800'>
-                            <div className='col-span-2 px-4 sm:px-8 notranslate text-slate-500 dark:text-slate-200'>
-                                <h1 className='text-2xl font-bold text-slate-500 my-2 dark:text-slate-200'>About Dataset</h1>
+                            <div className='col-span-2 px-4 sm:px-8 text-slate-500 dark:text-slate-200'>
+                                <h1 className='text-2xl font-bold text-slate-500 my-2 dark:text-slate-200'>About the Dataset</h1>
                                 <h3> Source of the data:
                                     <a href="https://archive.ics.uci.edu/ml/datasets/bank+marketing" target="_blank" rel="noreferrer"> <u>https://archive.ics.uci.edu/ml/datasets/bank+marketing</u></a>
                                 </h3>
