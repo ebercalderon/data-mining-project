@@ -32,7 +32,7 @@ const FinishedContainer = ({ characterMatch }) => (
             <img src={characterMatch.image} alt="" />
         </div>
         <h2 className='dark:text-white text-3xl w-full flex justify-center p-5'>
-            {characterMatch.name}
+            {characterMatch.class}
         </h2>
     </div>
 );

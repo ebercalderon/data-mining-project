@@ -33,6 +33,12 @@ def convertStringData(params, newParams, values, test):
     return values
 
 def ml(params, newParams, test_x):
+
+    print('test')
+    print(' '.join(map(str, params))) 
+    print(' '.join(map(str, newParams))) 
+    print(' '.join(map(str, test_x))) 
+    
     data = pandas.read_csv('bank-additional.csv')
 
     data = convertStringData(params, newParams, data, test_x)

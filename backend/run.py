@@ -42,12 +42,12 @@ def getQuestions():
             classImage = 'https://raw.githubusercontent.com/ebercalderon/data-mining-project/main/frontend/src/images/bad.gif'
 
         characterMatch = {
-          "name": characterMatch['class'][characterMatchId],
+          "class": characterMatch['class'][characterMatchId],
           "image": classImage,
           "age": characterMatch['age'][characterMatchId],
-          "eye_color": characterMatch['job'][characterMatchId],
-          "publisher": characterMatch['education'][characterMatchId],
-          "place_of_birth": characterMatch['nr.employed'][characterMatchId]
+          "job": characterMatch['job'][characterMatchId],
+          "education": characterMatch['education'][characterMatchId],
+          "nr.employed": characterMatch['nr.employed'][characterMatchId]
         }
     else:
         availableFeatures = set(availableFeatures) - set(questionWithComplete)
