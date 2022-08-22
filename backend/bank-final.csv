@@ -1,0 +1,27 @@
+,id,age,job,education,default,day_of_week,duration,campaign,previous,cons.conf.idx,euribor3m,nr.employed,class
+7,8,35-44,blue-collar,unknown,2,0,2,1,0,2,4,Above 52k,no
+10,11,35-44,blue-collar,unknown,2,0,1,1,0,2,4,Above 52k,no
+16,17,35-44,blue-collar,basic.6y,0,0,3,1,0,2,4,Above 52k,no
+17,18,45-54,blue-collar,basic.6y,2,0,3,1,0,2,4,Above 52k,no
+27,28,35-44,self-employed,basic.9y,2,0,2,1,0,2,4,Above 52k,no
+106,107,17-24,housemaid,basic.6y,0,0,3,2,0,2,4,Above 52k,no
+115,116,35-44,blue-collar,high.school,0,0,2,1,0,2,4,Above 52k,no
+118,119,55-64,admin.,unknown,0,0,3,1,0,2,4,Above 52k,no
+122,123,35-44,services,high.school,0,0,2,1,0,2,4,Above 52k,no
+123,124,45-54,technician,high.school,0,0,2,1,0,2,4,Above 52k,no
+131,132,35-44,technician,professional.course,2,0,4,1,0,2,4,Above 52k,no
+134,135,45-54,management,university.degree,0,0,2,1,0,2,4,Above 52k,no
+148,149,35-44,admin.,university.degree,2,0,2,1,0,2,4,Above 52k,no
+149,150,45-54,blue-collar,basic.4y,0,0,2,1,0,2,4,Above 52k,no
+168,169,35-44,blue-collar,unknown,0,0,2,2,0,2,4,Above 52k,no
+171,172,35-44,services,high.school,2,0,3,1,0,2,4,Above 52k,no
+172,173,45-54,technician,university.degree,0,0,2,1,0,2,4,Above 52k,no
+185,186,55-64,management,university.degree,0,0,3,1,0,2,4,Above 52k,no
+187,188,45-54,retired,high.school,2,0,2,1,0,2,4,Above 52k,no
+198,199,35-44,admin.,basic.9y,2,0,4,2,0,2,4,Above 52k,no
+199,200,35-44,blue-collar,basic.6y,0,0,4,1,0,2,4,Above 52k,no
+201,202,17-24,services,basic.6y,0,0,2,1,0,2,4,Above 52k,no
+225,226,55-64,retired,university.degree,0,0,2,1,0,2,4,Above 52k,no
+229,230,45-54,blue-collar,basic.4y,0,0,2,1,0,2,4,Above 52k,no
+238,239,17-24,services,high.school,2,0,2,2,0,2,4,Above 52k,no
+257,258,45-54,management,basic.9y,0,0,1,1,0,2,4,Above 52k,no
