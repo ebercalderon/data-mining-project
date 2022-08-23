@@ -83,7 +83,7 @@ class Chatbot extends Component {
         return (
             <div className="bg-white dark:bg-slate-800">
                 <section className='container mx-auto pb-20 py-5 lg:px-10'>
-                    <h1 className="text-3xl font-bold text-center mb-10 text-violet-800 p-5 dark:text-violet-400">I WILL DISCOVER YOUR SUPERHERO!</h1>
+                    <h1 className="text-3xl font-bold text-center mb-10 text-violet-800 p-5 dark:text-violet-400">I WILL DISCOVER IF THE CUSTOMER AGREES TO PLACE THE DEPOSIT!</h1>
                     <div className="w-full flex justify-center">
                         <img src={Brain} alt="" />
                     </div>
