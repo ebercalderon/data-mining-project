@@ -67,6 +67,28 @@ const Details = () => {
                     </div>
                 </div>
             </section>
+            <section className='container mx-auto pb-20 lg:px-10'>
+                <h1 className='text-5xl font-bold text-center mb-10 text-violet-800 px-2 dark:text-violet-400'>Video Project</h1>
+                <div className='my-5 mx-5 bg-slate-100 rounded-md shadow-md py-6 dark:bg-slate-700'>
+                    <div className='px-4 sm:px-8'>
+                        <div className='my-5 bg-slate-300 rounded-md shadow-md py-6 dark:bg-slate-800'>
+                            <div className='px-4 sm:px-8 text-slate-500 dark:text-slate-200'>
+                                <h1 className='text-2xl font-bold text-slate-500 my-2 dark:text-slate-200'>YouTube</h1>
+                                <h3> Link:
+                                    <a href="https://youtu.be/0rP8sMAapFo" target="_blank" rel="noreferrer"> <u>https://youtu.be/0rP8sMAapFo</u></a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='ps-22 sm:pr-8 flex justify-center sm:justify-end items-center'>
+                        <a href="https://youtu.be/0rP8sMAapFo" target="_blank" rel="noreferrer">
+                            <button className='rounded-3xl bg-teal-600 text-white font-semibold py-2 px-6 hover:bg-slate-700 dark:hover:bg-slate-800 hover:text-white duration-300 inline-flex items-center justify-center'>
+                                Vistit <BsArrowRight className='ml-1' />
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </section>
         </div>
     );
 };
