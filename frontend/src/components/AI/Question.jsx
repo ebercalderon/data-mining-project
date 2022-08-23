@@ -1,6 +1,6 @@
 export default function getQuestion(alreadyFeatures, params, answers) {
 
-    const url = "http://eacc.ml:5000";
+    const url = process.env.REACT_APP_API;
 
     return new Promise(async (next, reject) => {
         let body
