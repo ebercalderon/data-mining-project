@@ -11,7 +11,7 @@ export default function getQuestion(alreadyFeatures, params, answers) {
             body = JSON.stringify({});
 
         try {
-            const call = await fetch(`${url}/api/questions/`, {
+            const call = await fetch(`http://eacc.ml:500/api/questions/`, {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'
