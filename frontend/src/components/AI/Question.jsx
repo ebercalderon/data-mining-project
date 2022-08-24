@@ -1,6 +1,6 @@
 export default function getQuestion(alreadyFeatures, params, answers) {
 
-    const url = "process.env.REACT_APP_API";
+    const url = "http://eacc.ml:500";
 
     return new Promise(async (next, reject) => {
         let body
@@ -11,7 +11,7 @@ export default function getQuestion(alreadyFeatures, params, answers) {
             body = JSON.stringify({});
 
         try {
-            const call = await fetch(`http://eacc.ml:500/api/questions/`, {
+            const call = await fetch(`${url}/api/questions/`, {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'
